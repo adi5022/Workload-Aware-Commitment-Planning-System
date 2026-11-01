@@ -1,5 +1,5 @@
 """
-Interactive Terminal Demo for CommitWell Prototype
+Interactive Terminal Demo for Workload-Aware Commitment Planning Prototype
 Run directly with python demo_cli.py
 """
 import sys
@@ -208,7 +208,7 @@ def enter_focus_mode_flow():
 def main():
     setup_db()
     while True:
-        print_header("CommitWell Engine - Terminal Visualizer")
+        print_header("Commitment Planning Engine - Terminal Visualizer")
         print("  1. List All Tasks & Branch Priorities")
         print("  2. Add New Task (with Focus Hours & Capacity Check)")
         print("  3. Enter Focus Mode (Count down remaining hours)")
